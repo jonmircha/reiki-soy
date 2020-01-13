@@ -1,3 +1,5 @@
-#Reiki Soy
+# Reiki Soy
 
-Repositorio del sitio [Reiki.soy](https://reiki.soy)
+Repositorio del sitio [reiki.soy](https://reiki.soy)
+
+![Reiki Soy](img/reiki-soy.svg)
