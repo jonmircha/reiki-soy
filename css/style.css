@@ -155,4 +155,14 @@ ul li::before {
   .logo img {
     margin-top: 0;
   }
+
+  .citas-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .citas-info > aside {
+    flex-basis: 50%;
+  }
 }
