@@ -19,6 +19,10 @@ html {
   margin: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   transition: all 0.3s ease-out;
   color: var(--main-color);
@@ -76,7 +80,7 @@ ul li::before {
 }
 
 .menu img {
-  max-width: 1rem;
+  max-width: 1.5rem;
 }
 
 .logo img {
@@ -91,6 +95,15 @@ ul li::before {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.subtitle {
+  background-image: url(../img/bg-stars.png);
+  background-repeat: repeat-x;
+}
+
+.subtitle h2 {
+  background-color: rgba(255, 255, 255, 0.65);
 }
 
 .mb-2 {
@@ -137,6 +150,15 @@ ul li::before {
   color: var(--main-color);
 }
 
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
 @media screen and (min-width: 768px) {
   .section {
     padding-top: 3rem;
@@ -158,11 +180,22 @@ ul li::before {
 
   .citas-info {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .citas-info > aside {
     flex-basis: 50%;
+  }
+
+  .citas-info > aside:first-child {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 150%;
+  }
+
+  .only-mobile {
+    display: none;
   }
 }
