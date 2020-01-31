@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /akashicos/
+Disallow: /assets/
+Disallow: /i/
+Disallow: /i.html
