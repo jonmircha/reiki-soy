@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "./akashicos/",
+  "start_url": "./",
   "display": "standalone",
   "theme_color": "#e3b900",
   "background_color": "#ffffff"
