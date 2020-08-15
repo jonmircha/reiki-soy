@@ -109,4 +109,23 @@
   slider("[data-id='periodico']");
   slider("[data-id='revista']");
   slider("[data-id='identidad']");
+
+  const $modal = d.querySelector(".modal"),
+    $modalImg = d.querySelector(".modal-content"),
+    $modalClose = d.querySelector(".close"),
+    $images = d.querySelectorAll(".slider img");
+
+  console.log($images);
+
+  d.addEventListener("click", (e) => {
+    if (e.target.matches(".slider img")) {
+      $modal.style.display = "block";
+      $modalImg.src = e.target.src;
+    }
+
+    if (e.target.matches(".close") || e.target.matches(".modal")) {
+      $modal.style.display = "none";
+      $modalImg.src = "";
+    }
+  });
 })(document);
