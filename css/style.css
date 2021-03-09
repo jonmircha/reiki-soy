@@ -183,6 +183,10 @@ ul li::before {
     padding-top: 3rem;
   }
 
+  .section.citas > article {
+    width: 992px;
+  }
+
   .section > article {
     width: 700px;
   }
@@ -205,7 +209,7 @@ ul li::before {
   }
 
   .citas-info > aside {
-    flex-basis: 50%;
+    flex-basis: 33%;
   }
 
   .citas-info > aside:first-child {
@@ -213,6 +217,11 @@ ul li::before {
     text-align: center;
     /* font-size: 150%; */
     transform: scale(1.25);
+  }
+
+  .citas-info > aside:last-child {
+    flex-basis: 100%;
+    text-align: center;
   }
 
   .social-media {
